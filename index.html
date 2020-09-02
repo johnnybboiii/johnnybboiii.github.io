@@ -201,25 +201,51 @@
           <h2>Get in touch</h2>
           <div class="split style1">
             <section>
-              <form method="post" action="assets/php/email.php">
+              <form
+                enctype="text/plain"
+                action="https://docs.google.com/forms/d/e/1FAIpQLSeQWiPtJ2SoYuAfcXoKhOAF3TXxl69l1WgcgmSpVedvn4LOJQ/formResponse?"
+                target="hidden_iframe"
+                name="gform"
+                id="gform"
+              >
                 <div class="fields">
                   <div class="field half">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" />
+                    <label for="entry.1966951719">Name</label>
+                    <input
+                      type="text"
+                      name="entry.1966951719"
+                      id="entry.1966951719"
+                    />
                   </div>
                   <div class="field half">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" />
+                    <label for="entry.1943853429">Email</label>
+                    <input
+                      type="text"
+                      name="entry.1943853429"
+                      id="entry.1943853429"
+                    />
                   </div>
                   <div class="field">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="5"></textarea>
+                    <label for="entry.1451812017">Message</label>
+                    <textarea
+                      name="entry.1451812017"
+                      id="entry.1451812017"
+                      rows="5"
+                      style="resize: none"
+                    ></textarea>
                   </div>
                 </div>
                 <ul class="actions">
-                  <li class="button submit">Send Message</li>
+                  <li>
+                    <input class="button submit" type="submit" />
+                  </li>
                 </ul>
               </form>
+              <iframe
+                name="hidden_iframe"
+                id="hidden_iframe"
+                style="display: none"
+              ></iframe>
             </section>
             <section>
               <ul class="contact">
